@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+}
+
+header img {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+}
+
+header h1 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Jua", sans-serif;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: rgb(76, 114, 129);
+}
+
+header h1 a:hover {
+  color: rgb(89, 142, 211);
+}
+
+header h5 {
+  font-family: "Gowun Batang";
+  color: rgb(42, 177, 211);
+  text-align: center;
+}
+
+#content {
+  width: 1000px;
+  height: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#left_content {
+  width: 35%;
+  height: 980px;
+  background-color: cadetblue;
+  float: left;
+  border-radius: 20px 0 0 20px;
+}
+
+#r0 h5 {
+  text-align: center;
+}
+
+#r0 p {
+  font-size: 85%;
+  text-align: justify;
+}
+
+#right_content {
+  width: 65%;
+  height: 980px;
+  background-color: rgba(95, 158, 160, 0.616);
+  float: left;
+  border-radius: 0 20px 20px 0;
+}
+
+.r {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+  line-height: 1.6em;
+  letter-spacing: 0.05em;
+}
+
+.r h4 {
+  border-left: 10px solid rgb(80, 79, 79);
+  padding-left: 10px;
+
+  margin: 10px 0 15px 0;
+}
+
+#r1 p,
+#r3 p {
+  /* background-image: url(../images/img1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom; */
+  background: url(../images/img1.png) no-repeat right bottom;
+  background-size: 50px;
+  padding: 10px;
+}
+
+#r2 ul li {
+  list-style-type: none;
+}
+
+#r3 p {
+  background-image: url(../images/img2.png);
+  background-size: 30px;
+}
+
+#r4 p {
+  margin-bottom: 15px;
+}
+
+#r5 p {
+  margin-bottom: 15px;
+}
+
+#pagetop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
